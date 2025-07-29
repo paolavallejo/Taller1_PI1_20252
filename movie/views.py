@@ -11,7 +11,7 @@ def home(request):
     #return render(request, 'home.html')
 
     # uso de plantilla con parámetros
-    return render(request, 'home.html', {'name':'Greg Lim'})
+    return render(request, 'home.html', {'name':'Paola Vallejo'})
 
  # Función para 'About'
 def about(request):
