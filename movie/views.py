@@ -15,4 +15,7 @@ def home(request):
 
  # Función para 'About'
 def about(request):
-    return HttpResponse('<h1>Welcome to About Page</h1>')
+    #return HttpResponse('<h1>Welcome to About Page</h1>')
+   
+    #uso de plantilla sin parámetros
+    return render(request, 'about.html')
